@@ -6,6 +6,16 @@ class seseorang {
 
         //virtual void pesan() = 0;
         virtual void pesan(){
-            cout<<"[esan dari seseorang]" <<endl;
+            cout<<"[pesan dari seseorang]" <<endl;
         }
 };
+
+
+class joko : public seseorang{
+public:
+
+};
+
+
+
+
